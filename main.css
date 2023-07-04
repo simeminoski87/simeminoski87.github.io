@@ -1,0 +1,234 @@
+#nav-bar ul li{
+    display: inline-block;
+    padding-left:100px;
+    padding-top: 20px;
+}
+#nav-bar ul{
+    background: #202938;
+    border-radius: 2px;
+    height: 50px;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: "Baskerville Old Face",serif;
+    padding-left: 2px;
+}
+header{
+    margin-top: -16px;
+    background: #202938;
+    width: 101%;
+    margin-left: -7px;
+}
+li:not(.l-selected):hover{
+    transform: scale(1.2);
+}
+ul li a:not(.selected):hover{
+    border-left: 2px solid #9effee;
+}
+.selected{
+    border-bottom: 4px solid #9effee;
+}
+ul li:first-of-type{
+    margin-left: 472px;
+}
+header div{
+    position: absolute;
+    font-size: 36px;
+    font-family: Impact;
+    border-left: 5px solid #9effee;
+    padding-left: 4px;
+    left: 20px;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 3px;
+}
+header div>a{
+    color: #9effee;
+}
+#nav-bar{
+    border-bottom: 4px solid #9effee;
+}
+#main-div{
+    background: url(images/home.jpg) no-repeat;
+    width: 1544px;
+    height: 620px;
+    background-color: #202938;
+    margin-top: 0px;
+    margin-left: -34px;
+    filter: blur(6px);
+}
+#im-jose-mourinho{
+    position: absolute;
+    top: 250px;
+    left: 242px;
+    color: #202938;
+    display: inline-block;
+    font-size: 36px;
+    font-family: Impact;
+    border: 10px solid #202938;
+    padding: 20px 50px 20px 50px;
+    font-weight: bold;
+    background-color: rgba(158,255,238,33%);
+    line-height: 45px;
+    letter-spacing: 2px;
+}
+footer{
+    padding: 5px 0px 5px 600px;
+    background: #202938;
+    color: white;
+    width: 917px;
+    font-size: 20px;
+    margin-left: -8px;
+    margin-bottom: 0px;
+}
+#contat-me>a>img:hover{
+    transform: scale(1.2);
+}
+
+#contat-me{
+    position: absolute;
+    left: 42px;
+    top: 100px;
+    font-size: 50px;
+    color: #202938;
+}
+#contat-me a{
+    padding-right: 20px;
+    font-size: 0px;
+}
+#first-hobby{
+    position: absolute;
+    top: 100px;
+    left: 75px;
+    padding-left: 10px;
+    border-left: 4px solid #202938;
+    background-color: rgba(158,255,238,20%);
+}
+#text1,#text2,#text3,#text4{
+    display: inline-block;
+    width: 670px;
+    color:#0D1A26;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+#main-div1{
+    background: url(images/home.jpg) repeat-y;
+    width: 1544px;
+    height: 1600px;
+    background-color: #202938;
+    margin-top: 0px;
+    margin-left: -34px;
+    filter: blur(6px);
+}
+#second-hobby{
+    position: absolute;
+    top: 482px;
+    left: 75px;
+    padding-left: 10px;
+    border-left: 4px solid #202938;
+    background-color: rgba(158,255,238,20%);
+}
+.booklinks{
+    color:darkred;
+    text-decoration: none;
+}
+.booklinks:hover,#readmore a{
+    color: #0D1A26;
+    text-shadow: 1px 1px 1px darkred;
+}
+#third-hobby{
+    position: absolute;
+    top: 882px;
+    left: 75px;
+    padding-left: 10px;
+    border-left: 4px solid #202938;
+    background-color: rgba(158,255,238,20%);
+}
+#readmore{
+    position: absolute;
+    top: 595px;
+    left: 242px;
+    display: inline-block;
+    padding: 3px;
+    border-left: 3px solid #202938;
+    background-color:rgba(158,255,238,20%) ;
+}
+#readmore:hover{
+    transform: scale(1.2);
+}
+#readmore>a{
+    text-decoration: none;
+    color: #0D1A26;
+    font-size: 30px;
+    font-weight: bold;
+}
+#top{
+    display: inline-block;
+    background: #202938;
+    padding: 7px;
+    font-size: 35px;
+    position: fixed;
+    top: 600px;
+    left: 1320px;
+    border-radius: 3px;
+}
+#top>a{
+    color: white;
+    text-decoration: none;
+}
+#sm{
+    position: absolute;
+    top: 445px;
+    left: 1190px;
+    background-color: #202938;
+    border-radius: 20px;
+}
+#sm:hover{
+    transform: scale(1.2);
+}
+#fourth-hobby{
+    position: absolute;
+    top: 1282px;
+    left: 75px;
+    padding-left: 10px;
+    border-left: 4px solid #202938;
+    background-color: rgba(158,255,238,20%);
+}
+#footballchampions,#art-winning,#fishing-contest{
+    width: 485px;
+    font-size: 20px;
+    border-left: 4px solid #202938;
+    background-color: rgba(158,255,238,30%);
+    padding-right: 3px;
+    padding-left: 7px;
+    position: absolute;
+    top: 90px;
+}
+#footballchampions{
+    left: 10px;
+    padding-bottom: 5px;
+}
+#fishing-contest{
+    left: 1000px;
+    height: 785px;
+}
+#art-winning{
+    left: 505px;
+    height: 785px;
+}
+#footballchampions>p{
+    padding-right:5px;
+    padding-top: 2px;
+    color: rgba(12,18,29,0.83);
+}
+#main-div2{
+    background: url(images/home.jpg) repeat-y;
+    width: 1544px;
+    height: 850px;
+    background-color: #202938;
+    margin-top: 0px;
+    margin-left: -34px;
+    filter: blur(6px);
+}
